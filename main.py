@@ -18,3 +18,4 @@ class Team:
 
     def __str__(self):
         return f'Team Name:{self.name}, Players:{[str(player.name) for player in self.players]}'
+    
